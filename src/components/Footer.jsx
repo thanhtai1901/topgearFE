@@ -78,7 +78,7 @@ const Footer = () => {
               <img className="w-30 h-20" src={Logo} alt="Logo" />
             </Link>
             <div className="flex -mx-2 items-center gap-10">
-              <p> Coppy right @2024 by 8 Bit Store. Design by 8 Bit Store</p>
+              <p> Coppy right @2025 by Top Gear. Design by Top Gear</p>
               <img className="w-30 h-20" src="https://webmedia.com.vn/images/2021/09/logo-da-thong-bao-bo-cong-thuong-mau-xanh.png" alt="" />
               <p></p>
             </div>
