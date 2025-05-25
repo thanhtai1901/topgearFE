@@ -36,7 +36,7 @@ const Banner = () => {
           <SwiperSlide>
             <img
               className="w-full h-[600px] object-cover rounded-md"
-              src="https://tintuc.dienthoaigiakho.vn/wp-content/uploads/2021/08/1200x628_Banner-TT_Bang-gia-iPhone.jpg"
+              src="https://maytinhlongbien.vn/images/quangcao/1646813282_banner-2.jpg"
               alt=""
             />
           </SwiperSlide>
@@ -50,7 +50,7 @@ const Banner = () => {
           <SwiperSlide>
             <img
               className="w-full h-[600px] object-cover rounded-md"
-              src="https://ctmobile.vn/upload/IPHONE%2015/banner%2015-01-01.png"
+              src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/e4d63f143817405.6281e008a3775.png"
               alt=""
             />
           </SwiperSlide>
