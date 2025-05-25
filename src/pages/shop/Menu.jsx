@@ -13,7 +13,7 @@ const Menu = () => {
   const [itemsPerPage] = useState(8); // Số sản phẩm mỗi trang
 
   // API URL (nếu axiosPublic không cần thì thay axios)
-  const axiosPublic = axios.create({ baseURL: "https://be-8bitstores.vercel.app/" });
+  const axiosPublic = axios.create({ baseURL: "http://localhost:6001/" });
 
   // Fetch menu
   useEffect(() => {
@@ -103,7 +103,7 @@ const Menu = () => {
       <div className="pt-24 pb-10 sm:py-24 flex flex-col justify-center items-center gap-8">
         <div className="text-center">
           <h2 className="md:text-5xl text-2xl font-bold md:leading-snug leading-snug">
-            Sản phẩm tại<span className="text-green"> 8 Bit Store</span>
+            Sản phẩm tại<span className="text-green"> Top Gear</span>
           </h2>
           <p className="text-[#4A4A4A] mt-[10px] text-[1rem] md:text-xl">
             Đa dạng các loại sản phẩm laptop, đồ điện tử đang giảm giá sốc

@@ -12,7 +12,7 @@ const FilteredMenu = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch("https://be-8bitstores.vercel.app/menu");
+        const response = await fetch("http://localhost:6001/menu");
         const data = await response.json();
         const filteredData = data.filter(
           (item) => item.category === "Điện Thoại" || item.category === "Laptop"

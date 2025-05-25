@@ -37,7 +37,7 @@ const Cards = ({ item }) => {
       };
 
       axios
-        .post("https://be-8bitstores.vercel.app/cart", cartItem)
+        .post("http://localhost:6001/cart", cartItem)
         .then((response) => {
           if (response) {
             refetch(); // refetch cart
@@ -91,7 +91,7 @@ const Cards = ({ item }) => {
       };
 
       axios
-        .post("https://be-8bitstores.vercel.app/cart", cartItem)
+        .post("http://localhost:6001/cart", cartItem)
         .then((response) => {
           if (response) {
             refetch(); // refetch cart

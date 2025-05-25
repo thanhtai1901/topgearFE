@@ -54,7 +54,7 @@ const router = createBrowserRouter([
           // </PrivateRoute>
         ),
         loader: ({ params }) =>
-          fetch(`https://be-8bitstores.vercel.app/menu/${params.id}`),
+          fetch(`http://localhost:6001/menu/${params.id}`),
       },
       {
         path: "/update-profile",
@@ -99,7 +99,7 @@ const router = createBrowserRouter([
           </PrivateRoute>
         ),
         loader: ({ params }) =>
-          fetch(`https://be-8bitstores.vercel.app/blog/${params.id}`),
+          fetch(`http://localhost:6001/blog/${params.id}`),
       },
     ],
   },
@@ -165,7 +165,7 @@ const router = createBrowserRouter([
         path: "update-menu/:id",
         element: <UpdateMenu />,
         loader: ({ params }) =>
-          fetch(`https://be-8bitstores.vercel.app/menu/${params.id}`),
+          fetch(`http://localhost:6001/menu/${params.id}`),
       },
     ],
   },

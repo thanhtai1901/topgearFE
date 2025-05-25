@@ -24,7 +24,7 @@ const SingleMenu = () => {
 
   // useEffect(() => {
   //   axios
-  //     .get(`https://be-8bitstores.vercel.app/menu/related`)
+  //     .get(`http://localhost:6001/menu/related`)
   //     .then((response) => setRelatedProducts(response.data))
   //     .catch((error) => console.error("Error fetching related products:", error));
   // }, []);
@@ -52,7 +52,7 @@ const SingleMenu = () => {
       };
   
       axios
-        .post("https://be-8bitstores.vercel.app/cart", cartItem)
+        .post("http://localhost:6001/cart", cartItem)
         .then((response) => {
           console.log(response);
           if (response.status === 201) {
@@ -108,7 +108,7 @@ const SingleMenu = () => {
       };
 
       axios
-        .post("https://be-8bitstores.vercel.app/cart", cartItem)
+        .post("http://localhost:6001/cart", cartItem)
         .then((response) => {
           if (response.status === 201) {
             Swal.fire({

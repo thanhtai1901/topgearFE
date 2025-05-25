@@ -29,7 +29,7 @@ const Blog = () => {
       <div className="pt-24 pb-8 sm:py-24 flex flex-col  justify-center items-center gap-8">
         <div className="text-center">
           <h2 className="md:text-5xl text-2xl font-bold md:leading-snug leading-snug">
-            Blog<span className="text-green"> 8 Bit Store</span>
+            Blog<span className="text-green"> Top Gear</span>
           </h2>
           <p className="text-[#4A4A4A] mt-[10px] text-[1rem] md:text-xl">
             Đọc blogs để hiểu thêm về chúng tôi

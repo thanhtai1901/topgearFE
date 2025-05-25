@@ -64,7 +64,7 @@ const Banner = () => {
             </h1>
 
             <p className="mt-3 text-gray-600 dark:text-gray-400">
-              Khám phá thế giới công nghệ với những sản phẩm đa dạng tại 8bit!
+              Khám phá thế giới công nghệ với những sản phẩm đa dạng tại Top Gear!
               Dù bạn là game thủ, người làm việc sáng tạo, hay chỉ đơn giản muốn
               nâng cấp chiếc máy tính cá nhân của mình, chúng tôi đều có các sản
               phẩm phù hợp. Các sản phẩm của chúng tôi đều được nhập khẩu chính

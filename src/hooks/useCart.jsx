@@ -10,7 +10,7 @@ const useCart = () => {
     const { refetch, data: cart = [] } = useQuery({
         queryKey: ['carts', user?.email],
         queryFn: async () => {
-            const res = await fetch(`https://be-8bitstores.vercel.app/cart?email=${user?.email}`, {
+            const res = await fetch(`http://localhost:6001/cart?email=${user?.email}`, {
                 headers: {
                     authorization: `Bearer ${token}`
                 }

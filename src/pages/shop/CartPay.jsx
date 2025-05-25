@@ -43,7 +43,7 @@ const CartPay = () => {
       confirmButtonText: "không mua!",
     }).then((result) => {
       if (result.isConfirmed) {
-        fetch(`https://be-8bitstores.vercel.app/cart/${cart._id}`, {
+        fetch(`http://localhost:6001/cart/${cart._id}`, {
           method: "DELETE",
         })
         refetch();
@@ -54,7 +54,7 @@ const CartPay = () => {
 
   const handleDecrease = (cart) => {
     if (cart.quantity > 1) {
-      fetch(`https://be-8bitstores.vercel.app/cart/${cart._id}`, {
+      fetch(`http://localhost:6001/cart/${cart._id}`, {
         method: "PUT",
         headers: {
           "Content-Type": "application/json",
@@ -79,7 +79,7 @@ const CartPay = () => {
 
   const handleIncrease = (cart) => {
     if (cart.quantity < 10) {
-      fetch(`https://be-8bitstores.vercel.app/cart/${cart._id}`, {
+      fetch(`http://localhost:6001/cart/${cart._id}`, {
         method: "PUT",
         headers: {
           "Content-Type": "application/json",
@@ -144,7 +144,7 @@ const CartPay = () => {
     }).then((result) => {
       if (result.isConfirmed) {
         selectedIds.forEach((cartId) => {
-          fetch(`https://be-8bitstores.vercel.app/cart/${cartId}`, {
+          fetch(`http://localhost:6001/cart/${cartId}`, {
             method: "DELETE",
           });
           refetch();

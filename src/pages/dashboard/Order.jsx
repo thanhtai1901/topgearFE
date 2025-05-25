@@ -22,7 +22,7 @@ const Order = () => {
     queryKey: ["orders", user?.email],
     queryFn: async () => {
       const res = await fetch(
-        `https://be-8bitstores.vercel.app/payments?email=${user?.email}`,
+        `http://localhost:6001/payments?email=${user?.email}`,
         {
           headers: {
             authorization: `Bearer ${token}`,
