@@ -15,7 +15,7 @@ const FilteredAccessoriesAndTV = () => {
         const response = await fetch("http://localhost:6001/menu");
         const data = await response.json();
         const filteredData = data.filter(
-          (item) => item.category === "Tivi" || item.category === "Phụ kiện"
+          (item) => item.category === "Laptop Gaming Acer" || item.category === "Laptop Msi"
         );
         setMenu(filteredData);
         setFilteredItems(filteredData);
@@ -62,10 +62,10 @@ const FilteredAccessoriesAndTV = () => {
       <div className="pt-24 pb-4 flex flex-col justify-center items-center gap-8">
         <div className="text-center">
           <h2 className="md:text-5xl text-2xl font-bold md:leading-snug leading-snug">
-            Sản phẩm Tivi và Phụ kiện
+          Laptop Gaming Acer và Laptop Msi
           </h2>
           <p className="text-[#4A4A4A] mt-[10px] text-[1rem] md:text-xl">
-            Các sản phẩm Tivi và Phụ kiện với giá ưu đãi
+          Laptop Gaming  và Phụ kiện với giá ưu đãi
           </p>
         </div>
       </div>

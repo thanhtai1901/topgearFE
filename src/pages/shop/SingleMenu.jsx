@@ -22,12 +22,12 @@ const SingleMenu = () => {
   const month = createdAtDate.getMonth() + 1;
   const year = createdAtDate.getFullYear();
 
-  // useEffect(() => {
-  //   axios
-  //     .get(`http://localhost:6001/menu/related`)
-  //     .then((response) => setRelatedProducts(response.data))
-  //     .catch((error) => console.error("Error fetching related products:", error));
-  // }, []);
+  useEffect(() => {
+    axios
+      .get(`http://localhost:6001/menu/related`)
+      .then((response) => setRelatedProducts(response.data))
+      .catch((error) => console.error("Error fetching related products:", error));
+  }, []);
   const navigate = useNavigate();
 
   // Hàm xử lý tăng số lượng

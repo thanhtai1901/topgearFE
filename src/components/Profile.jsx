@@ -111,7 +111,7 @@ const Profile = ({ user, orders }) => {
             <li>
               <Link>
               <IoSettings />
-                <a>Cài đặt</a>
+                <a>Về trang  chủ</a>
               </Link>
             </li>
           </div>

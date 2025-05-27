@@ -15,7 +15,7 @@ const FilteredMenu = () => {
         const response = await fetch("http://localhost:6001/menu");
         const data = await response.json();
         const filteredData = data.filter(
-          (item) => item.category === "Điện Thoại" || item.category === "Laptop"
+          (item) => item.category === "Apple MacBook Pro" || item.category === "MacBook Air"
         );
         setMenu(filteredData);
         setFilteredItems(filteredData);
@@ -62,7 +62,7 @@ const FilteredMenu = () => {
       <div className="pt-24 pb-4 flex flex-col justify-center items-center gap-8">
         <div className="text-center">
           <h2 className="md:text-5xl text-2xl font-bold md:leading-snug leading-snug">
-            Điện thoại và Laptop
+          MacBook Air và Apple MacBook Pro
           </h2>
           <p className="text-[#4A4A4A] mt-[10px] text-[1rem] md:text-xl">
             Các sản phẩm điện tử đang giảm giá
