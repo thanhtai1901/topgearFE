@@ -43,7 +43,7 @@ const Banner = () => {
           <SwiperSlide>
             <img
               className="w-full h-[600px] object-cover rounded-md"
-              src="https://bizweb.dktcdn.net/100/318/659/files/banner-iphone-12-8983a0b6-defe-415e-bb29-2b31927c45f4.jpg?v=1607485732716"
+              src="https://www.google.com.vn/url?sa=i&url=https%3A%2F%2Fmsivietnam.vn%2Ftin-khuyen-mai&psig=AOvVaw2C5uucAxJP_TPZtKVfdPPM&ust=1748417523449000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMiB2v2Qw40DFQAAAAAdAAAAABAz"
               alt=""
             />
           </SwiperSlide>
@@ -83,7 +83,7 @@ const Banner = () => {
         <div className="flex items-center justify-center w-full mt-6 lg:mt-0 lg:w-1/2">
           <img
             className="w-full h-full lg:max-w-3xl"
-            src="https://www.compareandrecycle.co.uk/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F27942%2F1607431213-guide-to-finding-out-phone-name.jpeg&w=3840&q=75&dpl=dpl_5cwVoUf7Qe93c2q9B8TN3v8LFzfy"
+            src="https://bantincongnghe.net/wp-content/uploads/2023/01/hinh-nen-macbook-dep1.jpg"
             alt="Catalogue-pana.svg"
           />
         </div>

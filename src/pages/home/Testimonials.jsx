@@ -7,7 +7,7 @@ const Testimonials = () => {
   return (
     <section className="bg-white">
       <div className="container px-6 py-10 mx-auto">   <div className="">
-        <img className="w-full mb-10 h-[300px] object-cover rounded-md" src="https://mir-s3-cdn-cf.behance.net/project_modules/max_3840_webp/34b5bf180145769.6505ae7623131.jpg" alt="" />
+        <img className="w-full mb-10 h-[300px] object-cover rounded-md" src="https://www.acervietnam.com.vn/wp-content/uploads/2021/02/Laptop-Van-Phong-Mong-Nhe-Acer-Aspire-3-2023-5.webp" alt="" />
       </div>
         <h1 className="text-2xl font-semibold text-center text-gray-800 capitalize lg:text-3xl">
           Khám phá các lựa chọn <span className="text-blue-500">laptop đẳng cấp</span> của chúng tôi

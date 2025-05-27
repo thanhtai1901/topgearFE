@@ -7,7 +7,7 @@ const Categories = () => {
       <div className="flex items-center justify-center w-full h-96 lg:w-1/2">
         <img
           className="object-cover w-full h-full max-w-2xl rounded-md"
-          src="https://assets.gqindia.com/photos/5f242fdc85e7703226f06c6f/master/pass/5%20reasons%20you%20should%20buy%20a%20mid%20range%20phone%20over%20an%20expensive%20one.jpg"
+          src="https://www.acervietnam.com.vn/wp-content/uploads/2021/02/laptop-cE1BAA5u-hC3ACnh-mE1BAA1nh-giC3A1-rE1BABB-cho-sinh-viC3AAn-1-3.jpg"
           alt="apple watch photo"
         />
       </div>
@@ -35,7 +35,7 @@ const Categories = () => {
              to='/menu'
               className="px-6 py-2.5 mt-6 text-sm font-medium leading-5 text-center text-white capitalize bg-blue-600 rounded-lg hover:bg-blue-500 lg:mx-0 lg:w-auto focus:outline-none"
             >
-              Mua sắm apple watch ngay
+              Mua sắm ngay
             </Link>
           </div>
         </div>
