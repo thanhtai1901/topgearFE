@@ -43,7 +43,7 @@ const Banner = () => {
           <SwiperSlide>
             <img
               className="w-full h-[600px] object-cover rounded-md"
-              src="https://www.google.com.vn/url?sa=i&url=https%3A%2F%2Fmsivietnam.vn%2Ftin-khuyen-mai&psig=AOvVaw2C5uucAxJP_TPZtKVfdPPM&ust=1748417523449000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMiB2v2Qw40DFQAAAAAdAAAAABAz"
+              src="https://bizweb.dktcdn.net/100/514/337/themes/948234/assets/collection_banner.jpg?1732546269456"
               alt=""
             />
           </SwiperSlide>
