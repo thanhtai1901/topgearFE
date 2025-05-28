@@ -24,7 +24,8 @@ const SingleMenu = () => {
 
   useEffect(() => {
     axios
-      .get(`http://localhost:6001/menu/related`)
+      // .get(`http://localhost:6001/menu/related`)
+      .get(`http://localhost:6001/menu/related?id=${_id}&category=${category}`)
       .then((response) => setRelatedProducts(response.data))
       .catch((error) => console.error("Error fetching related products:", error));
   }, []);
@@ -50,7 +51,7 @@ const SingleMenu = () => {
         price,
         email: user.email,
       };
-  
+
       axios
         .post("http://localhost:6001/cart", cartItem)
         .then((response) => {
@@ -71,7 +72,7 @@ const SingleMenu = () => {
             error.response && error.response.data
               ? error.response.data.message
               : "Đã xảy ra lỗi. Vui lòng thử lại.";
-          
+
           console.error(error); // Log the full error for debugging
           Swal.fire({
             position: "center",
@@ -196,25 +197,25 @@ const SingleMenu = () => {
             </button>
           </div>
           {/* Nút thêm vào giỏ hàng */}
-         <div className="flex items-center gap-4">
-         <button
-            className="btn bg-green mt-4 text-white flex items-center"
-            onClick={handleAddToCart}
-          >
-            <IoCartSharp /> <p>Thêm vào giỏ hàng</p>
-          </button>
-          <button
-            className="btn bg-red-500 mt-4 text-white"
-            onClick={handleBuyNow}
-          >
-            Mua ngay
-          </button>
-         </div>
+          <div className="flex items-center gap-4">
+            <button
+              className="btn bg-green mt-4 text-white flex items-center"
+              onClick={handleAddToCart}
+            >
+              <IoCartSharp /> <p>Thêm vào giỏ hàng</p>
+            </button>
+            <button
+              className="btn bg-red-500 mt-4 text-white"
+              onClick={handleBuyNow}
+            >
+              Mua ngay
+            </button>
+          </div>
         </div>
       </div>
 
       {/* Related Products */}
-      {/* <div className="mt-12">
+      <div className="mt-12">
         <h3 className="text-xl font-semibold mb-4">Sản phẩm liên quan</h3>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
           {relatedProducts.map((product) => (
@@ -237,7 +238,7 @@ const SingleMenu = () => {
             </div>
           ))}
         </div>
-      </div> */}
+      </div>
     </div>
   );
 };
